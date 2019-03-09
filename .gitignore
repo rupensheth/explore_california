@@ -1,0 +1,26 @@
+# tells git to ignore these files
+
+# use regex like * ? [aeiou] [0-9]
+
+# negate expressions with !
+# *.php
+# !index.php // ignore all .php except index.php
+
+# ignore all files in directory with trailing slash
+# assets/videos/ will ignore all files in assets/videos/ directory
+
+# blanks lines are skipped
+
+# comments begin with a #
+tempfile.txt
+.DS_Store
+*.zip
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/vides/tour_*.mp4
+
+
