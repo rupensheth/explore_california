@@ -12,7 +12,21 @@
 # blanks lines are skipped
 
 # comments begin with a #
+
+# Suggestions for .gitignore
+# compiled source code
+# packages and compressed files .zip .gz .tar
+# logs and databases
+# operating system generated files
+# user uploaded assets (images, pdfs, videos)
+# sensitive information PEM keys
+
+# https://help.github.com/articles/ignoring-files
+# https://github.com/github/gitignore
+
+
 tempfile.txt
+tempfile2.txt
 .DS_Store
 *.zip
 *.zip
